@@ -7,7 +7,10 @@
 
     packages = with pkgs; [
       openssh
+      ed
       gnugrep
+      gnused
+      gawk
       guile
       ghc
     ];
