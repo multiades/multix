@@ -23,6 +23,12 @@
       inputs.nixpkgs.follows = "nixpkgs-droid";
       inputs.home-manager.follows = "home-manager-droid";
     };
+
+    # Secrets management
+    sops-nix = {
+      url = "github:mic92/sops-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs: {
