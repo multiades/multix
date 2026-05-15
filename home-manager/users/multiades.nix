@@ -27,6 +27,7 @@
       "git"
       "guile" # GNU scheme interpreter
       "ghc"
+      "ed"
       # "curl"
       # "wget"
       "sct"
